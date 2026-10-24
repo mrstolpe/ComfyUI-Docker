@@ -80,4 +80,4 @@ else
 fi
 
 echo "Launching ComfyUI..."
-exec python main.py --listen 0.0.0.0
+exec python main.py --listen 0.0.0.0 --enable-cors-header
